@@ -5,9 +5,7 @@ const path = require('path');
 const { title } = require('process');
 const http = require('http');
 const url = require('url');
-
-
-const port=process.env.PORT||8000; 
+const port=process.env.PORT||8000;
 
 const app=express();
 
